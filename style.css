@@ -1,0 +1,266 @@
+body {
+  font-family: "roboto";
+}
+
+h1 {
+  font-family: "spectral";
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h4 {
+  font-size: x-large;
+  font-weight: lighter;
+  margin-top: 0;
+  width: 18em;
+}
+
+nav {
+  display: flex;
+  border-bottom: solid 1px black;
+  height: 5em;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #ffc017;
+}
+
+nav img {
+  width: 150px;
+}
+
+.divAnchor a {
+  padding-inline: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: #191919;
+  color: white;
+  width: 8em;
+  height: 3em;
+  border-radius: 2em;
+  border: none;
+  font-family: "roboto";
+  font-size: small;
+}
+
+.lastButton {
+  width: 10em;
+  height: 2em;
+  font-size: 21px;
+  margin-top: 2em;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: solid 1px black;
+  background-color: #ffc017;
+}
+
+.divTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 27em;
+  margin-bottom: 3em;
+}
+
+.sectionTop6 {
+  width: 52.5%;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.top6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top6 > div {
+  width: 27%;
+  margin: 0.2em;
+  margin-left: 1em;
+}
+
+.top6 img {
+  width: 20px;
+  height: 20px;
+  border-radius: 25%;
+  margin-right: 0.5em;
+}
+
+.top6 div div {
+  display: flex;
+
+  align-items: center;
+}
+
+.top6 div div p {
+  font-size: 12px;
+  margin-bottom: 0.4em;
+  margin-top: 0.2em;
+  font-weight: bold;
+}
+
+.pTop6 {
+  font-size: 13px;
+  font-weight: 200;
+  color: grey;
+}
+
+h5 {
+  margin-top: 0.4em;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.trending {
+  display: flex;
+  font-weight: bold;
+}
+
+.trending img {
+  margin-right: 0.5em;
+}
+
+#number {
+  color: rgba(128, 128, 128, 0.151);
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+span {
+  color: grey;
+}
+
+.interline {
+  border-top: solid 1px black;
+  margin-bottom: 4em;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 3em;
+}
+
+.avatarAndNick {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.imageNick {
+  width: 20px;
+  height: 20px;
+  border-radius: 25%;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.textsCard {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.h3Card {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.imageCard {
+  width: 200px;
+  height: 134px;
+}
+
+.firstPCard {
+  color: grey;
+  padding-block: 0.6em;
+  font-size: 15px;
+}
+
+.spanCard {
+  background-color: rgba(128, 128, 128, 0.205);
+  color: black;
+  border-radius: 4em;
+  padding: 0.7em;
+}
+
+.pAndStar {
+  display: flex;
+}
+
+.secondPCard {
+  color: grey;
+  font-size: 14px;
+}
+
+.imageCard {
+  margin-left: 1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.h3Footer {
+  font-size: x-large;
+}
+
+.tagsFooter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2.5em;
+}
+
+.tagsFooter span {
+  border: solid 1px rgba(128, 128, 128, 0.329);
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-left: 0;
+}
+
+.infoFooter {
+  border-top: solid 1px rgb(163, 158, 158);
+  padding-top: 2.5em;
+}
+
+.infoFooter a {
+  display: inline-block;
+  text-decoration: none;
+  color: gray;
+  font-size: large;
+  margin-right: 1em;
+  padding-bottom: 1em;
+}
