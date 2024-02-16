@@ -145,6 +145,10 @@ span {
   color: grey;
 }
 
+.star {
+  margin-left: 0.4em;
+}
+
 .interline {
   border-top: solid 1px black;
   margin-bottom: 4em;
